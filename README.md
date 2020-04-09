@@ -13,8 +13,7 @@ Setup
 
 Usage notes
 -----------
-* Clicking the toolbar icon checks Miniflux for an update of the unread count and triggers notifications of any new items.
-  - It only checks the current Miniflux state. It does not trigger Miniflux to refresh its feed data.
+* Clicking the toolbar icon opens a tab with the Unread view of Miniflux
 * The time between checks of the Miniflux state can be set in the preferences.
 * Notifications can be disabled in the preferences.
 * The maximum number of notifications shown in one check can be set in the preferences. If there are more, a final notification is shown with the number of additional new items. This behavior is used to avoid a flood of notifications from a noisy feed.
