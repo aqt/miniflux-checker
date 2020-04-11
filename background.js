@@ -68,7 +68,7 @@ async function checkFeeds() {
     }
     var body = await response.json()
 
-    browser.browserAction.setBadgeText({'text': `${body.total}`})
+    browser.browserAction.setBadgeText({'text': `${body.total || ''}`})
     browser.browserAction.setBadgeBackgroundColor({color: 'blue'})
     browser.browserAction.setTitle({title: 'Miniflux Checker'})
 
